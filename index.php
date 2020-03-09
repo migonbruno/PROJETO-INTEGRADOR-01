@@ -40,7 +40,7 @@ require ('_header.php');
 <div class="inicio">
 
     <h1>Marcello's Pizzaria</h1>
-    <small><h2>Sabor e qualidade!</h2></small>
+    <small><h2>"Alberto, come and look at Marcello!"</h2></small>
     <br>
     <hr>
 </div>

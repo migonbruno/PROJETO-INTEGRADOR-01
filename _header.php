@@ -3,7 +3,7 @@
 
 // Tratamento do título da página
 if ($titulo == "") {
-    $titulo = "Marcello's Pizzaria - Sabor e Qualidade!";
+    $titulo = "Marcello's Pizzaria - MAMA MIA MARCELLO!";
 } else {
     $titulo = "{$titulo} - Marcello's Pizzaria";
 }

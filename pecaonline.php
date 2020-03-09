@@ -42,7 +42,7 @@ if ( isset($_POST['enviado']) ) :
     $telefone = sanitiza( filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_STRING) );
 
     // Obtém o nome do form
-    $edereco = filter_input(INPUT_POST, 'endereço', FILTER_SANITIZE_STRING);
+    $endereco = filter_input(INPUT_POST, 'endereço', FILTER_SANITIZE_STRING);
     
     // Obtém o nome do form
     $pizza = filter_input(INPUT_POST, 'pizza', FILTER_SANITIZE_STRING);

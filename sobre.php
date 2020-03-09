@@ -1,10 +1,11 @@
+<link rel="stylesheet" href="css/sobre.css">
 <?php
 
 // Configuração inicial da página
 require ('_config.php');
 
 // Define o título "desta" página
-$titulo = "";
+$titulo = "Sobre nós";
 
 // Opção ativa no menu principal
 // Valores possíveis: "", "artigos", "noticias", "contatos", "sobre", "procurar"
@@ -33,14 +34,26 @@ $js = "";
 require ('_header.php');
 
 ?>
+<div class="about">
 
-<h2>Lorem ipsum dolor</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget euismod nibh. Sed dictum, risus vel imperdiet semper, dolor nulla tristique elit, non pharetra quam purus non ligula. Donec a orci viverra, maximus urna a, blandit nunc. Nullam tincidunt tortor in porta aliquet. Phasellus consequat mauris nec leo aliquet bibendum. Donec in interdum risus. Vivamus feugiat quam at tortor venenatis rutrum. Vestibulum eget iaculis metus, et aliquam tellus.</p>
-<p>In sollicitudin tincidunt erat, at vulputate urna convallis vel. Nulla finibus nec lorem a aliquet. Duis semper tempus nisi nec fringilla. Vestibulum ultricies dapibus libero sed porta. In purus nulla, rutrum vel imperdiet in, aliquet sed dui. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-<p>Praesent justo ex, gravida eget nulla quis, volutpat feugiat nisl. Phasellus interdum sollicitudin justo, id interdum libero vulputate ac. Aliquam sed tristique libero, eu rutrum mauris. Mauris tincidunt nisl leo, efficitur dignissim quam tempus quis. Ut id ante quis nisi faucibus semper vel dignissim urna. Aenean at dapibus orci. Curabitur gravida lorem tortor, sed vehicula justo congue eu.</p>
-<h2>Etiam molestie</h2>
-<p>Etiam molestie, magna sed viverra aliquam, lorem est pellentesque mi, sit amet fermentum ante purus et justo. Duis sapien nulla, consectetur sit amet finibus nec, consectetur vitae metus. Cras vel vehicula est. Etiam dictum pretium lectus id ullamcorper. Suspendisse dapibus imperdiet risus nec pretium. Aenean condimentum ultricies enim. Duis laoreet at lacus non pharetra. Ut tempus, massa lobortis porttitor vulputate, risus elit convallis neque, sed auctor arcu lectus in nulla. Sed rhoncus aliquet velit malesuada scelerisque. In vel urna at lacus molestie finibus. Vestibulum at velit nec arcu luctus bibendum. Quisque at diam enim. Nullam condimentum est venenatis convallis vestibulum.</p>
+    <h3>Marcello's Pizzaria, 500 anos de tradição!</h3>
+    <br>
+    <br>
+    <h4> <p> Somos uma pizzaria fundada na antiga cs_italy, nossos queridos jogadores 
+    não tinham o que fazer entre um round e outro então</p>
+    tivemos a brilhante ideia de vender nossas pizzas em meio ao fogo cruzado.</p>
+    <p>Fundada por Marcello (lê-se Martielo) nosso querido herói de guerra, e seu amigo Alberto, temos orgulho em oferecer a melhor pizza de todo o planeta.</p>
+    <br>
+    <p>MAMA MIA MARCELLO!</p>
+    
+    <br>
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ChDof6K--GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    </h4>
+
+
+</div>
 <?php
 
 // Inclui o rodapé do template

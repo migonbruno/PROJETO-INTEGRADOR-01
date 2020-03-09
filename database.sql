@@ -11,7 +11,7 @@ CREATE DATABASE mpizzaria CHARACTER SET utf8 COLLATE utf8_general_ci;
 -- Selecionando o banco de dados
 USE mpizzaria;
 
--- Criando tabela "Cadastro Usuario"
+-- Criando tabela "cadastro Usuario"
  CREATE TABLE pedidos (
     email_user VARCHAR(50) PRIMARY KEY NOT NULL,
     nome_user VARCHAR(100) NOT NULL,
